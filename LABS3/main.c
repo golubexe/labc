@@ -8,7 +8,7 @@ float percent(int a, int b)
 
 int main ()
 {
-  int i, n, num, count;
+  int i, n, count;
   count = 0;
   printf ("Vnesete kolku broevi sakate da vnesete\n");
   scanf ("%d", &n);
