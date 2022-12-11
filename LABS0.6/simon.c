@@ -24,21 +24,12 @@ int main(){
     for(int i = 0; i < n;i++){
         for(int j = 0; j < m; j++){
             scanf("%d", &niza[i][j]);
+            sum = sum+niza[i][j];
             count++;
         }
     }
-
-    // Sobiranje na site elemnti
-    for(int i = 0; i < n;i++){
-        for(int j = 0; j < m;j++){
-        sum = sum+niza[i][j];
-        }
-    }
-
     sredna = sum/count;
     printf("Srednata vrednost e %d\n", sredna);
-
-
     for(int i = 0; i < n;i++){
         for(int j = 0; j < n; j++){
             if(niza[i][j]>sredna){
@@ -47,6 +38,6 @@ int main(){
             }
         }
     }
-    printf("%d elemnti od nizata go ispolnuvaat uslovot\n", c);
+    printf("%d elementi od nizata go ispolnuvaat uslovot\n", c);
 
 }
