@@ -34,7 +34,7 @@ int main(){
         scanf("%d", &niza[i]);
     }
 
-    printf("%d", bomba(niza, n));
+    bomba(niza, n);
 
 
 }
